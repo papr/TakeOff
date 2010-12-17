@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		6E275F0F1056BC8200183DE9 /* RoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E275F0C1056BC8200183DE9 /* RoundedView.m */; };
+		6E275F101056BC8200183DE9 /* TransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E275F0E1056BC8200183DE9 /* TransparentWindow.m */; };
+		6E84560010E8E2FB00A627D9 /* off.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6E8455FF10E8E2FB00A627D9 /* off.icns */; };
+		6E85AFFE1056DD41009D54FD /* iLifeControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E85AFFD1056DD41009D54FD /* iLifeControls.framework */; };
+		6E85B0011056DD45009D54FD /* iLifeControls.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6E85AFFD1056DD41009D54FD /* iLifeControls.framework */; };
+		6EC2216E0F9B535200D7FD72 /* OffController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2216D0F9B535200D7FD72 /* OffController.m */; };
+		6EC221710F9B54BA00D7FD72 /* Off-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC2216F0F9B54BA00D7FD72 /* Off-20.png */; };
+		6EC221A80F9B61E400D7FD72 /* OffPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC221A70F9B61E400D7FD72 /* OffPreferences.m */; };
+		6EC221C80F9B65EA00D7FD72 /* OffPreffXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC221C70F9B65EA00D7FD72 /* OffPreffXib.xib */; };
+		6EC2224A0F9B78FF00D7FD72 /* OffBin in Resources */ = {isa = PBXBuildFile; fileRef = 6EC222490F9B78FF00D7FD72 /* OffBin */; };
+		6EC222EC0F9B9E9600D7FD72 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6EC222EB0F9B9E9600D7FD72 /* Credits.rtf */; };
+		6ED466AD11D6341C0075001E /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED466AC11D6341C0075001E /* ShortcutRecorder.framework */; };
+		6ED466B011D634240075001E /* ShortcutRecorder.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6ED466AC11D6341C0075001E /* ShortcutRecorder.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E85AFD21056DC11009D54FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6ED466B011D634240075001E /* ShortcutRecorder.framework in CopyFiles */,
+				6E85B0011056DD45009D54FD /* iLifeControls.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Take Off_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Take Off_Prefix.pch"; sourceTree = "<group>"; };
+		6E275F0B1056BC8200183DE9 /* RoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedView.h; sourceTree = "<group>"; };
+		6E275F0C1056BC8200183DE9 /* RoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedView.m; sourceTree = "<group>"; };
+		6E275F0D1056BC8200183DE9 /* TransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentWindow.h; sourceTree = "<group>"; };
+		6E275F0E1056BC8200183DE9 /* TransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentWindow.m; sourceTree = "<group>"; };
+		6E8455FF10E8E2FB00A627D9 /* off.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = off.icns; path = ../../Resources/Off/off.icns; sourceTree = SOURCE_ROOT; };
+		6E85AFFD1056DD41009D54FD /* iLifeControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iLifeControls.framework; path = ../../Frameworks/iLifeControls.framework; sourceTree = SOURCE_ROOT; };
+		6EC2216C0F9B535200D7FD72 /* OffController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffController.h; sourceTree = "<group>"; };
+		6EC2216D0F9B535200D7FD72 /* OffController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffController.m; sourceTree = "<group>"; };
+		6EC2216F0F9B54BA00D7FD72 /* Off-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Off-20.png"; sourceTree = "<group>"; };
+		6EC221A60F9B61E400D7FD72 /* OffPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffPreferences.h; sourceTree = "<group>"; };
+		6EC221A70F9B61E400D7FD72 /* OffPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffPreferences.m; sourceTree = "<group>"; };
+		6EC221C70F9B65EA00D7FD72 /* OffPreffXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffPreffXib.xib; sourceTree = "<group>"; };
+		6EC222490F9B78FF00D7FD72 /* OffBin */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = OffBin; sourceTree = "<group>"; };
+		6EC222EB0F9B9E9600D7FD72 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = ../../Resources/Off/Credits.rtf; sourceTree = "<group>"; };
+		6ED466AC11D6341C0075001E /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShortcutRecorder.framework; path = "/Users/pablo/Proggn/Obj-C/Frameworks/shortcutrecorder-new/build/Release/ShortcutRecorder.framework"; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Take Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				6E85AFFE1056DD41009D54FD /* iLifeControls.framework in Frameworks */,
+				6ED466AD11D6341C0075001E /* ShortcutRecorder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6EC221A60F9B61E400D7FD72 /* OffPreferences.h */,
+				6EC221A70F9B61E400D7FD72 /* OffPreferences.m */,
+				6EC2216C0F9B535200D7FD72 /* OffController.h */,
+				6EC2216D0F9B535200D7FD72 /* OffController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E85AFFD1056DD41009D54FD /* iLifeControls.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				6ED466AC11D6341C0075001E /* ShortcutRecorder.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Take Off.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Take Off */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Take Off";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6E275F0B1056BC8200183DE9 /* RoundedView.h */,
+				6E275F0C1056BC8200183DE9 /* RoundedView.m */,
+				6E275F0D1056BC8200183DE9 /* TransparentWindow.h */,
+				6E275F0E1056BC8200183DE9 /* TransparentWindow.m */,
+				32CA4F630368D1EE00C91783 /* Take Off_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E8455FF10E8E2FB00A627D9 /* off.icns */,
+				6EC222EB0F9B9E9600D7FD72 /* Credits.rtf */,
+				6EC222490F9B78FF00D7FD72 /* OffBin */,
+				6EC2216F0F9B54BA00D7FD72 /* Off-20.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				6EC221C70F9B65EA00D7FD72 /* OffPreffXib.xib */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Take Off */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Take Off" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				6E85AFD21056DC11009D54FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Take Off";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Take Off";
+			productReference = 8D1107320486CEB800E47090 /* Take Off.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Take Off" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Take Off */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Take Off */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				6EC221710F9B54BA00D7FD72 /* Off-20.png in Resources */,
+				6EC221C80F9B65EA00D7FD72 /* OffPreffXib.xib in Resources */,
+				6EC2224A0F9B78FF00D7FD72 /* OffBin in Resources */,
+				6EC222EC0F9B9E9600D7FD72 /* Credits.rtf in Resources */,
+				6E84560010E8E2FB00A627D9 /* off.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				6EC2216E0F9B535200D7FD72 /* OffController.m in Sources */,
+				6EC221A80F9B61E400D7FD72 /* OffPreferences.m in Sources */,
+				6E275F0F1056BC8200183DE9 /* RoundedView.m in Sources */,
+				6E275F101056BC8200183DE9 /* TransparentWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frameworks/HMBlkAppKit1.1\"",
+					"\"$(SRCROOT)/../../Frameworks\"",
+					"\"$(SRCROOT)/../../Frameworks/shortcutrecorder/build/Release\"",
+					"\"$(SRCROOT)/../../Frameworks/shortcutrecorder-new/build/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take Off_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Take Off";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frameworks/HMBlkAppKit1.1\"",
+					"\"$(SRCROOT)/../../Frameworks\"",
+					"\"$(SRCROOT)/../../Frameworks/shortcutrecorder/build/Release\"",
+					"\"$(SRCROOT)/../../Frameworks/shortcutrecorder-new/build/Release\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take Off_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Take Off";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Take Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Take Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
